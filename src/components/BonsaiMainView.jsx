@@ -1,4 +1,5 @@
 import { BonsaisGrid } from './BonsaisGrid'
+import { Footer } from './Footer';
 
 export function BonsaiMainView() {
   return (
@@ -9,6 +10,7 @@ export function BonsaiMainView() {
       <main>
         <BonsaisGrid />
       </main>
+        <Footer />
     </div>
   );
 }

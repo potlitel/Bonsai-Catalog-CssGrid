@@ -9,7 +9,7 @@ export function BonsaisGrid() {
     <ul className={styles.bonsaisGrid}>
       {bonsais.map((bonsai) => {
         return (
-          <Link to={`/bonsai/${bonsai.id}`}>
+          <Link to={`/bonsai/${bonsai.id}`} style={{ textDecoration: 'none' }}>
             <BonsaiCard key={bonsai.id} bonsai={bonsai}/>
           </Link>  
         );
